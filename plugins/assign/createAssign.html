@@ -1,0 +1,17 @@
+<div>
+	<form action="" method="POST">
+		<label for="name">Nombre de la tarea: </label>
+		<input type="text" id="name" name="name" autofocus>
+		<label for="intro">Descripción:</label>
+		<textarea name="intro" id= "intro"></textarea>
+		<label for="allowsubmissionsfromdate">Permitir envíos desde</label>
+		<input type="date" id="allowsubmissionsfromdate" name="allowsubmissionsfromdate">
+		<label for="duedate">Fecha de entrega:</label>
+		<input type="date" id="duedate" name="duedate" >
+		<label for="grade">Puntos máximo:</label>
+		<input type="number" min="0" max="100" name="grade" id = "grade" value="100">
+		<label for="grade">Punto máximo:</label>
+		<input type="submit" value="Guardar" data-transtion="fade">
+		<button onclick="window.history.back();">Cancelar</button>
+	</form>
+</div>
